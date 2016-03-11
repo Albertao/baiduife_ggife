@@ -1,63 +1,68 @@
-# [HTML5 Boilerplate](http://html5boilerplate.com)
+<h2>百度前端IFE BGWHT团队博客页面</h2>
+<h3>目录</h3>
+[背景介绍](#背景介绍)<br>
+[项目介绍](#项目介绍)<br>
+[团队介绍](#团队介绍)<br>
+[获取代码](#获取代码)<br>
+[问题分析](#问题分析)<br>
+[其他](#其他)
+- - -
+<a name="背景介绍"></a>
+  <h3>背景介绍</h3>
+  <p>此项目为IFE热身项目，促进队友相互了解，共同完成一些东西</p>
+<a name="团队介绍"></a>
+<h4>队伍成员名单</h4>
+<ul>
+  <li>weibrand</li>
+  <li>hawtim</li>
+  <li>albertao</li>
+  <li>carrot</li>
+  <li>yangyuhua</li>
+</ul>
+<a name="项目介绍"></a>
+<h3>项目介绍</h3>
+<h4>制作页面列表</h4>
+<ul>
+  <li>注册/登录页面</li>
+  <li>文章列表页面/即首页</li>
+  <li>文章详情页面</li>
+  <li>关于我们页面</li>
+  <li>用户资料页面</li>
+  <li>（可选项）后台内容管理页面</li>
+</ul>
+<a name="获取代码"></a>
+  <h3>获取代码</h3>
+  <dt>github项目主页:</dt>
+  <dd><a href="https://github.com/hawtim/baiduife_ggife">https://github.com/hawtim/baiduife_ggife</dd>
 
-HTML5 Boilerplate is a professional front-end template for building fast,
-robust, and adaptable web apps or sites.
+<a name="问题分析"></a>
+  <h3>问题分析</h3>
+<!-- <ol>
+  <li>
+    <h4></h4>
+    <p class="answer">&nbsp;</p>
+  </li>
+  <li>
+    <h4>&nbsp;</h4>
+    <p class="answer">&nbsp;</p>
+  </li>
+  <li>
+    <h4>&nbsp;</h4>
+    <p class="answer">&nbsp;</p>
+  </li>
+  <li>
+    <h4>&nbsp;</h4>
+    <p class="answer">&nbsp;</p>
+  </li>
+  <li>
+    <h4>&nbsp;</h4>
+    <p class="answer">&nbsp;</p>
+  </li>
+</ol> -->
 
-This project is the product of many years of iterative development and combined
-community knowledge. It does not impose a specific development philosophy or
-framework, so you're free to architect your code in the way that you want.
-
-* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-* Homepage: [http://html5boilerplate.com](http://html5boilerplate.com)
-* Twitter: [@h5bp](http://twitter.com/h5bp)
-
-
-## Quick start
-
-Choose one of the following options:
-
-1. Download the latest stable release from
-   [html5boilerplate.com](http://html5boilerplate.com/) or a custom build from
-   [Initializr](http://www.initializr.com).
-2. Clone the git repo — `git clone
-   https://github.com/h5bp/html5-boilerplate.git` - and checkout the tagged
-   release you'd like to use.
-
-
-## Features
-
-* HTML5 ready. Use the new elements with confidence.
-* Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+).
-* Designed with progressive enhancement in mind.
-* Includes [Normalize.css](http://necolas.github.com/normalize.css/) for CSS
-  normalizations and common bug fixes.
-* The latest [jQuery](http://jquery.com/) via CDN, with a local fallback.
-* The latest [Modernizr](http://modernizr.com/) build for feature detection.
-* IE-specific classes for easier cross-browser control.
-* Placeholder CSS Media Queries.
-* Useful CSS helpers.
-* Default print CSS, performance optimized.
-* Protection against any stray `console.log` causing JavaScript errors in
-  IE6/7.
-* An optimized Google Analytics snippet.
-* Apache server caching, compression, and other configuration defaults for
-  Grade-A performance.
-* Cross-domain Ajax and Flash.
-* "Delete-key friendly." Easy to strip out parts you don't need.
-* Extensive inline and accompanying documentation.
-
-
-## Documentation
-
-Take a look at the [documentation table of
-contents](/h5bp/html5-boilerplate/blob/master/doc/TOC.md). This
-documentation is bundled with the project, which makes it readily available for
-offline reading and provides a useful starting point for any documentation
-you want to write about your project.
-
-
-## Contributing
-
-Anyone and everyone is welcome to
-[contribute](/h5bp/html5-boilerplate/blob/master/CONTRIBUTING.md). Hundreds
-of developers have helped make the HTML5 Boilerplate what it is today.
+<a name="其他"></a>
+****
+欢迎指出该站点的任何问题，也希望能对前端学习者有一点点的帮助。
+****
+Email:<hawtim_zhang@qq.com>
+QQ:843823550
