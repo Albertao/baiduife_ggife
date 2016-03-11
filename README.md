@@ -9,19 +9,19 @@
 - - -
 <a name="背景介绍"></a>
   <h3>背景介绍</h3>
-  <p>此项目为IFE热身项目，促进队友相互了解，共同完成一些东西</p>
+  <p>此项目为IFE热身项目，促进队友相互了解，共同完成一些东西<br>也希望能够将学习过程中的心得体会或者知识总结发布到该站点中</p>
 <a name="团队介绍"></a>
 <h4>队伍成员名单</h4>
 <ul>
   <li>weibrand</li>
   <li>hawtim</li>
   <li>albertao</li>
-  <li>carrot</li>
+  <li>carrotluo</li>
   <li>yangyuhua</li>
 </ul>
 <a name="项目介绍"></a>
 <h3>项目介绍</h3>
-<h4>制作页面列表</h4>
+<h4>制作页面列表(目前项目正在启动中)</h4>
 <ul>
   <li>注册/登录页面</li>
   <li>文章列表页面/即首页</li>
