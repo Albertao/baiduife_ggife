@@ -6,28 +6,129 @@
 @import "compass/utilities/sprites";
 
 /*!============以下为公共样式========*/ 
-.cf {zoom:1}
-.cf:after {content: ' '; display: block; clear: both;}
-.w960{width: 960px;margin: 0 auto;}
-ul,li{list-style: none;}
-img{border:0;}
-.no-copy{
-    -webkit-touch-callout: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    -khtml-user-select: none;
-    user-select: none;
-}
+.fr{float: right;}
+.fl{float: left;}
+.clearfix {zoom:1}
+.clearfix:after {content: ' '; display: block; clear: both;}
+.w960 {width: 960px;margin: 0 auto;}
+.no-copy {@include user-select(none);}
 .text-copy{-webkit-user-select:text;user-select:text;}
 ::selection {color:#fff; background-color:pink;}
 ::-moz-selection { color:#fff; background-color:pink;}
 ::-webkit-selection { color:#fff; background-color:pink;}
+a{text-decoration: none;}
+.btn{@include border-radius(2px);}
+.w1200{width: 1200px;height: auto;margin: 0 auto;}
+/*!=============以下为文档自带样式==========*/ 
+html {font-size:10px;font-size: 62.5%;}
+body {background-color: #34495e;font-family: "Helvetica";}
+.wrapper{margin-top: 5px;}
+.header{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 289px;
+  color: #bdc3c7;
+  background-color: #fff;
+}
+.ife {
+  position: relative;
+  top:20px;
+  left: 0;
+  display: inline-block;
+  width:72px;
+  height:72px;
+  text-align: center;
+  line-height: 72px;
+  font-size: 25px;
+  color: #000;
+  @include background(linear-gradient(top,#8a2be2,#Adff2f,#Ffffff,#F0fff0,#40e0d0)); 
+/*  background: -webkit-linear-gradient(blueviolet 20%, greenyellow 20%, white 20%, honeydew 20%, turquoise 20%);*/
+  border-radius:20%;
+  border:2px solid grey;
+  opacity: .5;
+  @include transition(all .5s ease-in 0s)
+}
+.ife:hover {
+  border-radius:50%;
+  border:2px solid #fff;
+  opacity: 1.0;
+  /*box-shadow: 10px 10px 5px #888888;*/
+  @include animation(spin 1.0s linear);
+}
+a+h2{
+  display: inline-block;
+  height:30px;
+  line-height: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+.nav{
+  // position: relative;
+  // top: 0;
+  // right: 0;
+  // display: inline-block;
+  width: 600px;
+  height: 80px;
+  .btn {
+  // position: relative;
+  // top:0;
+  // left: 200px;
+  display: inline-block;
+  width: 72px;
+  height: 35px;
+  margin-left: 20px;
+  margin-top: 40px;
+  font-size: 18px;
+  line-height:35px;
+  text-align:center;
+  }
+  .search{
+    background:transparent url('image.png') left top no-repeat;
+  }
+}
+.home:hover{background-color: blueviolet;}
+.about:hover{background-color: greenyellow;}
+.portfolio:hover{background-color: white;}
+.support:hover{background-color: honeydew;}
+.contact:hover{background-color: turquoise;}
+
+h3{position: relative;top:20%;right:10%;width: 150px;height: 18px;line-height: 18px;z-index: 2;}
 
 
 
 
 
+
+
+
+
+
+
+
+/*!==============================动画样式===========================*/
+/*!========旋转动画=====*/
+@-webkit-keyframes spin{
+    0%{@include transform(rotate(0deg));}
+    50%{@include transform(rotate(360deg));}
+    100%{@include transform(rotate(720deg));}
+}
+/*!========位置变化动画=====*/
+@-webkit-keyframes translateX{
+  0%{
+    @include transform(translateX(-100%));
+    opacity:.5;
+  }
+  50%{
+    @include transform(translateX(-50%));
+    opacity:.8;
+  }
+  100%{
+    @include transform(translateX(-0%));
+    opacity:1;
+  }
+}
 
 
 /*!============以下为媒体查询样式========*/

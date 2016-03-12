@@ -11,57 +11,57 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+  <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/common.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/hawtim.css">
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
-<style>
-ul,li{list-style: none;}
-.ife{
-  width:100px;
-  height:100px;
-  text-align: center;
-  line-height: 100px;
-  font-size: 40px;
-  font-family: "Helvetica";
-  border-radius:20%;
-  -webkit-transition:all .5s ease-in 0s;
-     -moz-transition:all .5s ease-in 0s;
-          transition:all .5s ease-in 0s;
-  background: -webkit-linear-gradient(top,#8a2be2,#Adff2f,#Ffffff,#F0fff0,#40e0d0); /* Safari 5.1 - 6.0 */
-  background: -o-linear-gradient(top,#8a2be2,#Adff2f,#Ffffff,#F0fff0,#40e0d0); /* Opera 11.1 - 12.0 */
-  background: -moz-linear-gradient(top,#8a2be2,#Adff2f,#Ffffff,#F0fff0,#40e0d0); /* Firefox 3.6 - 15 */
-  background: linear-gradient(top,#8a2be2,#Adff2f,#Ffffff,#F0fff0,#40e0d0); /* 标准的语法 */
-/*  background: -webkit-linear-gradient(blueviolet 20%, greenyellow 20%, white 20%, honeydew 20%, turquoise 20%);*/
-}
-.ife:hover{
-  border-radius:50%;
-          transform:rotate(720deg);
-      -ms-transform:rotate(720deg); /* IE 9 */
-  -webkit-transform:rotate(720deg); /* Safari and Chrome */
-}
-.ife:hover span{
-  display: block;
-  transition:all 0.5s ease-in 0s ;
-}
-li{font-size: 25px;}
-</style>
 <body>
   <!--[if lt IE 7]>
     <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
   <![endif]-->
   <!-- Add your site or application content here -->
   <div class="wrapper">
-    <div class="logo">
-      <p class="ife">IFE</p>
-      <ul>
-        <li>blueviolet</li>
-        <li>greenyellow</li>
-        <li>white</li>
-        <li>honeydew</li>
-        <li>turquoise</li>
-      </ul>
+    <div class="header">
+      <div class="w1200">
+        <a class="logo ife" id="ife" href="index.html" >IFE</a>
+        <h2>欢迎来到BGWHT团队博客页面</h2>
+        <div class="nav fr clearfix">
+          <ul>
+            <li class="btn home ">首页</li>
+            <li class="btn portfolio ">日志</li>
+            <li class="btn support ">支持</li>
+            <li class="btn about ">关于我们</li>
+            <li class="btn contact ">联系我们</li>
+            <li class="btn search">&nbsp;</li>
+          </ul>
+        </div>
+        <h3>FIND US ONLINE</h3>
+        <ul>
+          <li><a href="#" class="ico-twitter"></a></li>
+          <li><a href="#" class="ico-facebook"></a></li>
+          <li><a href="#" class="ico-dribble"></a></li>
+          <li><a href="#" class="ico-google+"></a></li>
+          <li><a href="#" class="ico-seed"></a></li>
+        </ul>
+      </div>
+  </div>
+  <div class="section">
+    <div class="tag">
+      <strong class="tags" data-toggle="tab">All</strong>
+      <strong class="tags" data-toggle="tab">Design</strong>
+      <strong class="tags" data-toggle="tab">Branding </strong>
+      <strong class="tags" data-toggle="tab">Graphic</strong>
+      <strong class="tags" data-toggle="tab">Animation</strong>
+      <strong class="tags" data-toggle="tab">Illustration</strong>
+      <strong class="tags" data-toggle="tab">Photography</strong>
+    </div>
+    <div class="article">
+      
     </div>
   </div>
+
+  <script src="./js/vendor/jquery-1.9.0.min.js"></script>
 </body>
 </html>
