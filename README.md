@@ -13,15 +13,15 @@
 <a name="团队介绍"></a>
 <h4>队伍成员名单</h4>
 <ul>
-  <li>weibrand</li>
-  <li>hawtim</li>
-  <li>albertao</li>
-  <li>carrotluo</li>
-  <li>yangyuhua</li>
+  <li><a href="https://github.com/WeiGrand">WeiGrand</a></li>
+  <li><a href="https://github.com/hawtim">Hawtim</a></li>
+  <li><a href="https://github.com/Albertao">Albertao</a></li>
+  <li><a href="https://github.com/ArmorCarrot">ArmorCarrot</a></li>
+  <li><a href="https://github.com/Seasand-yyh">Seasand-yyh</a></li>
 </ul>
 <a name="项目介绍"></a>
 <h3>项目介绍</h3>
-<h4>制作页面列表(目前项目正在启动中)</h4>
+<h4>制作页面列表(首页建设中)</h4>
 <ul>
   <li>注册/登录页面</li>
   <li>文章列表页面/即首页</li>
